@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.Post{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 650px;
+    background-color: rgb(255,255,255);
+    margin: 20px 0px 20px 150px;
+    border-radius: 9px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Post-user{
+    padding: 5px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.countrypf{
+    height: 19px;
+    width: 19px;
+}
+
+.Post-upperblock{
+    display: flex;
+    flex-direction: row;
+}
+
+.Post-up-text-block{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.Post-main-block{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-family: sans-serif,'Poppins';
+    font-weight: 700;
+    color: black;
+}
+
+.Post-bottom-block{
+    display: flex;
+    flex-direction: row;
+    padding:  9px 3px;
+    color: rgb(126, 126, 151);
+    font-family: sans-serif,'Poppins';
+    font-size: 15px;
+}
+
+.Post-main-block span{
+    height: 12px;
+}
+
+.post-media img{
+    height: 600px;
+    width: 100%;
+}
+
+.like{
+    background: rgb(18,140,228);
+    height: 10px;
+    width: 10px;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.post-db-like-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.p-db-second img{
+    height: 32px;
+    width: 32px;
+    color: green;
+}
+
+
+.post-down-block{
+    display: flex;
+    flex-direction: column;
+}

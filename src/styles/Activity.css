@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.Acitivity{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 650px;
+    background-color: rgb(255,255,255);
+    margin: 20px 0px 20px 150px;
+    border-radius: 9px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Activity-user{
+    padding: 10px;
+    border-radius: 40px;
+    height: 50px;
+}
+.Activity-input{
+    border: transparent;
+    border-radius: 25px ;
+    background-color: rgb(241,242,246);
+    height: 22px;
+    width: 550px;
+    padding: 15px;
+    margin: 5px 0px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(126, 126, 151);
+}
+
+
+.post-upper-block{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 5px;
+}
+.line {
+    margin: 5px 15px;
+    height: 0.5px;
+    background-color: rgb(243, 243, 243);
+    width: 95%;
+  }
+
+.Activity-icon {
+    display: flex;
+    flex-direction: row;
+}
+.Activity-icon .icon{
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px;
+}
+
+.text{
+    padding:  5px 3px;
+    color: rgb(126, 126, 151);
+    font-family: sans-serif,'Poppins';
+}
+.icon-text-container{
+    padding: 2px 30px ;
+    display: flex;
+    flex-direction: row;
+}
